@@ -1,0 +1,394 @@
+.logo_1 {
+  position: absolute;
+  width: 9.93%;
+  height: 50.99px;
+  left: 12.5%;
+  top: 18px;
+}
+
+.logo_2 {
+  left: 23.2%;
+  top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.link_1 {
+  position: absolute;
+  height: 19px;
+  left: 46.1%;
+  top: 29px;
+  font-style: normal;
+  font-weight: 385;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.link_2 {
+  position: absolute;
+
+  height: 19px;
+  left: 56.94%;
+  top: 29px;
+  font-style: normal;
+  font-weight: 385;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.link_3 {
+  position: absolute;
+
+  height: 19px;
+  left: 66.94%;
+  top: 29px;
+  font-style: normal;
+  font-weight: 385;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.vector {
+  width: 66px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vector_1 {
+  width: 15px;
+  height: 14px;
+  top: 33px;
+  left: 82.6%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.vector_2 {
+  width: 15px;
+  height: 14px;
+  top: 33px;
+  left: 84.5%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.vector_3 {
+  width: 9px;
+  height: 17px;
+  top: 31px;
+  left: 86.5%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.nav_border {
+  width: 100%;
+  top: 77px;
+  border: 1px solid #006ac0;
+  opacity: 0px;
+}
+
+.text_1 {
+  position: absolute;
+  width: 31.1%;
+  height: 11.25%;
+  left: 15.8%;
+  top: 20.8%;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+
+.btn_1 {
+  position: absolute;
+  width: 21.8%;
+  height: 56px;
+  left: 15.5%;
+  top: 45.9%;
+  background: #ce0024;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.oven {
+  position: absolute;
+  left: 50.2%;
+  top: 18.9%;
+}
+
+.dots {
+  position: absolute;
+  width: 227.43px;
+  height: 28.28px;
+  left: 1064px;
+  top: 459.43px;
+  transform: rotate(-90deg);
+}
+
+.dots_1 {
+  position: absolute;
+  left: 1320px;
+  top: 231.24px;
+}
+
+.dots_2 {
+  position: absolute;
+  left: 1320px;
+  top: 344.43px;
+}
+
+.dots_3 {
+  position: absolute;
+  left: 1320px;
+  top: 454.61px;
+}
+
+.pizza {
+  position: absolute;
+  left: 1400px;
+  top: 152px;
+}
+
+.pizza_text {
+  position: absolute;
+  width: 135.65px;
+  height: 56.09px;
+  left: 1360px;
+  top: 206px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.marketing {
+  position: absolute;
+  left: 1435px;
+  top: 295px;
+}
+
+.marketing_text {
+  position: absolute;
+  width: 135.65px;
+  height: 56.09px;
+  left: 1395px;
+  top: 350px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.spice {
+  position: absolute;
+  left: 1400px;
+  top: 445px;
+}
+
+.spice_text {
+  position: absolute;
+  width: 135.65px;
+  height: 56.09px;
+  left: 1360px;
+  top: 505px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.text_2 {
+  position: absolute;
+  width: 291px;
+  height: 26px;
+  left: 420px;
+  top: 632px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.text_3 {
+  position: absolute;
+  width: 255px;
+  height: 26px;
+  left: 832px;
+  top: 632px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.text_4 {
+  position: absolute;
+  width: 255px;
+  height: 26px;
+  left: 1244px;
+  top: 632px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 168px;
+  left: 300px;
+  top: 704px;
+  background: #006ac0;
+}
+
+.text_5 {
+  width: 1000px;
+  height: 112px;
+  left: 180px;
+  top: 740px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 51px;
+  margin-top: 30px;
+  margin-left: 175px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pizza_image {
+  position: absolute;
+  width: 749px;
+  height: 400px;
+  left: 300px;
+  top: 896px;
+}
+
+.text_6 {
+  position: absolute;
+  width: 485px;
+  height: 278px;
+  left: 1135px;
+  top: 962px;
+  font-weight: 350px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.background_collapse {
+  position: absolute;
+  width: 100%;
+  height: 778px;
+  background: #fafafa;
+  left: 0px;
+  top: 1334px;
+  opacity: 0px;
+}
+
+.accordion-container {
+  padding-bottom: 25px;
+  width: 100%;
+  height: fit-content;
+  background: #fafafa;
+}
+
+button.accordion {
+  position: relative;
+  width: 947px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  text-align: left;
+  padding: 20px;
+  margin-top: 25px;
+  margin-left: 185px;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 32px;
+  line-height: 160%;
+  color: #009dc0;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+.accordion-content {
+  background-color: white;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  margin-left: 185px;
+  width: 947px;
+  transition: max-height 0.2s ease-in-out;
+}
+
+button.accordion::before {
+  content: url("C:/Users/Ptici/Documents/Bootstrap project/Plus vector.png");
+  position: absolute;
+  left: 875px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+button.accordion.is-open::before {
+  content: url("C:/Users/Ptici/Documents/Bootstrap project/Minus vector.png");
+}
+.QR_Code {
+  width: 202px;
+  height: 202px;
+  top: 1567px;
+  left: 910px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.case_study {
+  height: 498px;
+  margin-top: 50px;
+}
+
+.case_title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  color: white;
+  background-color: #006ac0;
+}
