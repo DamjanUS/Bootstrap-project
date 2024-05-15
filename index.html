@@ -11,9 +11,35 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
 
     <script
@@ -23,14 +49,14 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="second_attempt.css" />
   </head>
   <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
-            src="C:\Users\Ptici\Documents\Bootstrap project\Logo 1.png"
+            src="/Logo 1.png"
             alt="Logo"
             position="absolute;"
             width="143px;"
@@ -38,95 +64,89 @@
             left="180px;"
             top="18px"
           />
-          <img
-            src="C:\Users\Ptici\Documents\Bootstrap project\Logo 2.png"
-            alt="Logo"
-            class="logo_2"
-          />
+          <img src="/Logo 2.png" alt="Logo" class="logo_2" />
         </a>
-        <div>
-          <div class="nav-item">
-            <a class="nav-link link_1" href="#">OUR STORY</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link_1" href="Our_story.html">OUR STORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_2" href="The_team.html">THE TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_3" href="Contact_us.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_4" href="FAQ'S.html">FAQ'S</a>
+            </li>
+          </ul>
+          <div class="vector">
+            <a href="#" class="a">
+              <img class="icon vector_1" src="Vector.svg" alt="Icon" />
+            </a>
+            <a href="#" class="a">
+              <img class="icon vector_2" src="Vector 2.svg" alt="Icon" />
+            </a>
+            <a href="#" class="a">
+              <img class="icon vector_3" src="Vector 3.svg" alt="Icon" />
+            </a>
           </div>
-          <div class="nav-item">
-            <a class="nav-link link_2" href="#">THE TEAM</a>
-          </div>
-          <div class="nav-item">
-            <a class="nav-link link_3" href="#">CONTACT US</a>
-          </div>
-        </div>
-        <div class="vector">
-          <a href="#" class="a">
-            <img class="icon vector_1" src="Vector.svg" alt="Icon" />
-          </a>
-          <a href="#" class="a">
-            <img class="icon vector_2" src="Vector 2.svg" alt="Icon" />
-          </a>
-          <a href="#" class="a">
-            <img class="icon vector_3" src="Vector 3.svg" alt="Icon" />
-          </a>
         </div>
       </div>
     </nav>
     <div class="container">
       <div class="nav_border"></div>
-      <div class="text_1">
-        Offers a unique blend of convenience,<b> flavor enhancement </b> &
-        <b>advertising opportunities</b>
-        <span
-          style="
-            width: 25.67px;
-            height: 7px;
-            left: 424px;
-            top: 371px;
-            font-weight: bold;
-            color: #ce0024;
-          "
-          >...</span
-        >
-      </div>
-      <div>
-        <a href="https://www.facebook.com/" class="btn btn_1" role="button"
-          >CONTACT US TODAY</a
-        >
-      </div>
-      <img src="oven.png" alt="oven" class="oven" />
-      <div>
-        <img src="dots 1.png" alt="dots" class="dots_1" />
-        <img src="pizza.png" alt="pizza" class="pizza" />
-        <div class="pizza_text">
-          PIZZA <span style="font-family: Roboto">SAVER</span>
+      <div class="flex_one">
+        <div class="width-one">
+          <div class="text_1">
+            Offers a unique blend of convenience,<b> flavor enhancement </b> &
+            <b>advertising opportunities</b>
+            <span style="font-weight: bold; color: #ce0024">...</span>
+          </div>
+          <div>
+            <a href="Contact_us.html" class="btn btn_1" role="button"
+              >CONTACT US TODAY</a
+            >
+          </div>
         </div>
-
-        <img src="dots 2.png" alt="dots" class="dots_2" />
-        <img src="marketing.png" alt="marketing" class="marketing" />
-        <div class="marketing_text">
-          <span style="font-family: Roboto">MARKERTING</span> TOOL
-        </div>
-
-        <img src="dots 3.png" alt="dots" class="dots_3" />
-        <img src="spice.png" alt="spice" class="spice" />
-        <div class="spice_text">
-          SPICE <span style="font-family: Roboto">SHAKER</span>
+        <div class="width-two">
+          <div class="flex_one">
+            <div><img src="oven.png" alt="oven" class="oven" /></div>
+            <div><img src="vectors.png" alt="vectors" class="vectors" /></div>
+          </div>
         </div>
       </div>
-      <div class="text_2">
-        <span style="margin-right: 10px; font-weight: bold; color: #03ac63"
-          >✓</span
-        ><span style="font-weight: 500">Multifunctional</span> Design
+      <div class="flex_two">
+        <div class="text_2">
+          <span style="margin-right: 10px; font-weight: bold; color: #03ac63"
+            >✓</span
+          ><span style="font-weight: 500">Multifunctional</span> Design
+        </div>
+        <div class="text_2">
+          <span style="margin-right: 5px; font-weight: bold; color: #03ac63"
+            >✓</span
+          ><span style="font-weight: 500">QR</span> Code
+          <span style="font-weight: 500">Integration</span>
+        </div>
+        <div class="text_2">
+          <span style="margin-right: 5px; font-weight: bold; color: #03ac63"
+            >✓</span
+          ><span style="font-weight: 500">Income</span> Generator
+        </div>
       </div>
-      <div class="text_3">
-        <span style="margin-right: 5px; font-weight: bold; color: #03ac63"
-          >✓</span
-        ><span style="font-weight: 500">QR</span> Code
-        <span style="font-weight: 500">Integration</span>
-      </div>
-      <div class="text_4">
-        <span style="margin-right: 5px; font-weight: bold; color: #03ac63"
-          >✓</span
-        ><span style="font-weight: 500">income</span> Generator
-      </div>
-      <div class="background container">
+      <div class="background">
         <p class="text_5">
           Add a
           <span style="font-weight: 600">dash of creativity</span>
@@ -135,47 +155,53 @@
           customers in the process.
         </p>
       </div>
-
-      <div><img src="large pizza.png" alt="pizza" class="pizza_image" /></div>
-      <div class="text_6">
-        Introducing the innovative
-        <span style="font-weight: bold; color: #009dc0"
-          >Spice Shaker Pizza Saver</span
-        >
-        (SSPS™️), an Intellectual Property Asset - a 21st-century innovation
-        that transforms the traditional pizza saver into a multi functional and
-        value packed product. Our patented Spice Shaker Pizza Saver(SSPS™️),
-        offers a
-        <span style="font-weight: bold; color: #009dc0">unique</span> blend of
-        convenience,<span style="font-weight: bold; color: #009dc0"
-          >flavor enhancement</span
-        >
-        , and
-        <span style="font-weight: bold; color: #009dc0"
-          >advertising opportunities</span
-        >
-        to make it a
-        <span style="font-weight: bold; color: #009dc0">game changer</span> in
-        the industry.
+      <div class="flex_one">
+        <div class="width-one">
+          <img src="large pizza.png" alt="pizza" class="pizza_image" />
+        </div>
+        <div class="width-two">
+          <div class="text_6">
+            Introducing the innovative
+            <span style="font-weight: bold; color: #009dc0"
+              >Spice Shaker Pizza Saver</span
+            >
+            (SSPS™️), an Intellectual Property Asset - a 21st-century innovation
+            that transforms the traditional pizza saver into a multi functional
+            and value packed product. Our patented Spice Shaker Pizza
+            Saver(SSPS™️), offers a
+            <span style="font-weight: bold; color: #009dc0">unique</span> blend
+            of convenience,<span style="font-weight: bold; color: #009dc0"
+              >flavor enhancement</span
+            >
+            , and
+            <span style="font-weight: bold; color: #009dc0"
+              >advertising opportunities</span
+            >
+            to make it a
+            <span style="font-weight: bold; color: #009dc0">game changer</span>
+            in the industry.
+          </div>
+        </div>
       </div>
-
-      <div class="container accordion-container">
+      <div class="accordion-container">
         <div>
           <button class="accordion">Multifunctional Design</button>
-          <div class="accordion-content">
-            <p class="">
+          <div class="accordion-content flex_one">
+            <div class="accordion_style_text">
               Unlike the conventional pizza saver, our product doubles as a
               spice shaker, allowing customers to enhance the flavors of their
               pizza with their favorite seasonings or oils. This added
               functionality enhances the overall dining experience and caters to
               a wide range of taste.
-            </p>
-            <img src="QR code.png" alt="QR Code" class="" />
+            </div>
+            <div class="accordion_style_img">
+              <img src="QR code.png" alt="QR Code" />
+            </div>
           </div>
 
           <button class="accordion">QR Code Integration</button>
-          <div class="accordion-content">
-            <p>
+          <div class="accordion-content flex_one">
+            <div class="accordion_style_text">
               Each Spice Shaker Pizza Saver (SSPS™️), features an integrated
               <span style="color: #009dc0; font-weight: 600">QR code</span>
               on top, opening up a world of possibilities for brands. This
@@ -190,67 +216,394 @@
               >
               for businesses looking to connect with their audience in a more
               engaging and personalized way. 
-            </p>
-            <img src="QR code.png" alt="QR Code" class="QR_Code" />
+            </div>
+            <div class="accordion_style_img">
+              <img src="QR code.png" alt="QR Code" />
+            </div>
           </div>
 
           <button class="accordion">Massive Advertising Potential</button>
-          <div class="accordion-content">
-            <p>
+          <div class="accordion-content flex_one">
+            <div class="accordion_style_text">
               The interactive nature of the Spice Shaker Pizza Saver (SSPS™️)
               ensures that customers engage with the content, creating a
               valuable advertising platform that drives future growth and
               success for your brand. Businesses can capitalize on the eyeballs
               that advertisers crave.
-            </p>
-            <img src="QR code.png" alt="QR Code" class="QR_Code" />
+            </div>
+            <div class="accordion_style_img">
+              <img src="QR code.png" alt="QR Code" />
+            </div>
           </div>
           <button class="accordion">Income Generator</button>
-          <div class="accordion-content">
-            <p>
+          <div class="accordion-content flex_one">
+            <div class="accordion_style_text">
               The Spice Shaker Pizza Saver (SSPS™️), represents new revenue
               streams for pizza businesses and advertisers alike. By leveraging,
               this innovative product companies can tap into additional income
               streams and strengthen their market position in the competitive
               landscape. 
-            </p>
-            <img src="QR code.png" alt="QR Code" class="QR_Code" />
+            </div>
+            <div class="accordion_style_img">
+              <img src="QR code.png" alt="QR Code" />
+            </div>
           </div>
-          <button class="accordion">
-            Consumer satisfaction and competitive advantage
-          </button>
-          <div class="accordion-content">
-            <p>
-              Our intellectual property, not only meets consumer preferences by
-              offering a unique and practical solution but also provides
-              businesses with a competitive edge in the thriving pizza delivery
-              market. By staying ahead of the curve, with our innovative
-              product, companies can secure long-term sustainable growth and
-              customer loyalty.
-            </p>
-            <img src="QR code.png" alt="QR Code" class="QR_Code" />
+        </div>
+        <button class="accordion">
+          Consumer satisfaction and competitive advantage
+        </button>
+        <div class="accordion-content flex_one">
+          <div class="accordion_style_text">
+            Our intellectual property, not only meets consumer preferences by
+            offering a unique and practical solution but also provides
+            businesses with a competitive edge in the thriving pizza delivery
+            market. By staying ahead of the curve, with our innovative product,
+            companies can secure long-term sustainable growth and customer
+            loyalty.
+          </div>
+          <div class="accordion_style_img">
+            <img src="QR code.png" alt="QR Code" />
           </div>
         </div>
       </div>
       <div class="case_study">
-        <div class="case_title">CASE STUDY</div>
+        <div class="case_study_text" style="font-size: 40px; font-weight: 700">
+          CASE STUDY
+        </div>
+        <div style="margin-left: -15px; margin-bottom: 10px">
+          <img src="case border.png" alt="" />
+        </div>
+        <div class="case_study_text">
+          <div style="font-weight: 700">Key Points:</div>
+          <li>
+            Entrepreneur showcases product improvement at International Pizza
+            Expo.
+          </li>
+          <li>
+            CEO of a prominent manufacturing facility requests NDA within a
+            minute.
+          </li>
+          <li>
+            Validation from industry heavyweight signals disruptive impact.
+          </li>
+
+          <div style="margin-top: 10px; font-weight: 700">Conclusion:</div>
+          The immediate NDA request underscores the innovation's market
+          potential and sets the stage for significant industry growth
+          opportunities.
+        </div>
       </div>
+      <div class="testimonials_text">TESTIMONIALS</div>
+      <div class="testimonials_dots">...</div>
+
+      <div style="display: flex; align-items: center; flex-grow: 1">
+        <div class="owl-carousel">
+          <div>
+            <div class="carousel_1">
+              “The usefulness of the Spice Shaker Pizza Saver enhances its
+              ability to deliver eyeballs to the advertisers. But it is those
+              eyeballs an advertiser wants”
+              <div class="carousel_2">Gerry G Chicago, IL</div>
+            </div>
+          </div>
+          <div>
+            <div class="carousel_1">
+              “This is fantastic” "What’s the name of this place?”
+              <div class="carousel_2">Kevin M. Sarasota, FL</div>
+            </div>
+          </div>
+          <div>
+            <div class="carousel_1">
+              “The Sharks don’t know what they’re missing”
+              <div class="carousel_2">Burt S. Punta Gorda, FL</div>
+            </div>
+          </div>
+          <div>
+            <div class="carousel_1">
+              “No doubt your product is the ultimate“
+              <div class="carousel_2">Jatin J. India</div>
+            </div>
+          </div>
+          <div>
+            <div class="carousel_1">
+              “This is a great idea”
+              <div class="carousel_2">Kiara C. Badia Spices Doral, FL</div>
+            </div>
+          </div>
+          <div>
+            <div class="carousel_1">
+              Best of luck to you with this brilliant idea
+              <div class="carousel_2">Christian D. Sarasota</div>
+            </div>
+          </div>
+          <div>
+            <div class="carousel_1">
+              “This product will revolutionize the pizza industry” “Useful &
+              practical ”
+              <div class="carousel_2">Ron B. Pittsburg, PA</div>
+            </div>
+          </div>
+          <div>
+            <div class="carousel_1">
+              “How thoughtful”
+              <div class="carousel_2">Tina D. University Park, FL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex_three">
+        <div class="width-one">
+          <div class="exclusive_title">
+            <span style="font-weight: 400">Unlock</span> Value through
+            <span style="font-weight: 400">Exclusive</span>, Proprietary,
+            <span style="font-weight: 400">Intellectual Property</span>
+          </div>
+          <div class="exclusive_text">
+            Unlock extraordinary value through our exclusive and proprietary
+            intellectual property. In the realm of intellectual property,
+            exclusivity and confidentiality are paramount for safeguarding
+            innovative creations. Our proprietary intellectual property provides
+            your brand with the opportunity to distinguish itself with a product
+            that embodies exclusivity and innovation, fostering unique
+            differentiation and accomplishment. Our patent encompasses a broad
+            scope that effectively deters others from creating interactive
+            devices, such as the Spice Shaker Pizza Saver (SSPS™️). 
+          </div>
+        </div>
+        <div class="width-two">
+          <img src="exclusive-piza.png" alt="" style="padding-left: 35px" />
+        </div>
+      </div>
+      <div class="flex_four">
+        <div class="timeline_img">
+          <img src="timeline-pizza.png" alt="" />
+        </div>
+        <div class="width-two">
+          <div class="clearfix pb10">
+            <section class="timeline__item timeline__item--first">
+              <div class="row">
+                <div class="flex_four">
+                  <div class="width-one"></div>
+                  <div
+                    class="width-two"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 20px;
+                      font-weight: 500;
+                      padding-left: 25px;
+                    "
+                  >
+                    Pizza Saver LLC est. 2017
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="timeline__item">
+              <div class="row">
+                <div class="flex_four">
+                  <div class="width-one"></div>
+                  <div
+                    class="width-two"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 20px;
+                      font-weight: 500;
+                      padding-left: 25px;
+                    "
+                  >
+                    Women Business Enterprise Certification
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="timeline__item">
+              <div class="row">
+                <div class="flex_four">
+                  <div class="width-one"></div>
+                  <div
+                    class="width-two"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 20px;
+                      font-weight: 500;
+                      padding-left: 25px;
+                    "
+                  >
+                    Proprietary Patent
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="timeline__item">
+              <div class="row">
+                <div class="flex_four">
+                  <div class="width-one"></div>
+                  <div
+                    class="width-two"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 20px;
+                      font-weight: 500;
+                      padding-left: 25px;
+                    "
+                  >
+                    Patent Portfolio, continuation-in-part
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="timeline__item">
+              <div class="row">
+                <div class="flex_four">
+                  <div class="width-one"></div>
+                  <div
+                    class="width-two"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 20px;
+                      font-weight: 500;
+                      padding-left: 25px;
+                    "
+                  >
+                    SSPS™️
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="timeline__item timeline__item--last">
+              <div class="row">
+                <div class="flex_four">
+                  <div class="width-one"></div>
+                  <div
+                    class="width-two"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-size: 20px;
+                      font-weight: 500;
+                      padding-left: 25px;
+                    "
+                  >
+                    Clear Verified 
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="elevate_text">
+        READY TO
+        <span
+          style="
+            font-family: Roboto;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 72px;
+            text-align: center;
+          "
+          >ELEVATE</span
+        >
+        YOUR BRAND
+        <span
+          style="
+            font-family: Roboto;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 72px;
+            text-align: center;
+          "
+        >
+          WITH</span
+        >
+        EXCLUSIVE
+        <span
+          style="
+            font-family: Roboto, sans-serif;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 72px;
+            text-align: center;
+          "
+          >INNOVATION?</span
+        >
+      </div>
+      <div>
+        <a href="Contact_us.html" class="btn btn_2" role="button"
+          >GET IN TOUCH TODAY</a
+        >
+      </div>
+      <footer class="footer">
+        <div style="padding-top: 35px; text-align: center">
+          <img src="footer-image.png" alt="" />
+        </div>
+        <div
+          style="
+            font-family: Roboto, sans-serif;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 19.2px;
+            text-align: center;
+            padding-top: 15px;
+            color: #ffffff;
+          "
+        >
+          <img src="papka.png" alt="" /> pizzasaverllc@gmail.com
+        </div>
+        <div
+          style="
+            margin-top: 10px;
+            margin-left: 550px;
+            border: 1px solid #ffffff;
+            width: 15%;
+          "
+          ;
+        ></div>
+        <div style="color: #ffffff; padding-top: 15px; text-align: center">
+          <img src="footer-image-2.png" alt="" />
+
+          PATENT NO.#11,365,023
+        </div>
+        <div
+          style="
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+
+            text-align: center;
+            color: #ffffff;
+          "
+        >
+          <div
+            style="
+              font-family: Roboto, sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              padding-top: 25px;
+              text-align: center;
+              color: #ffffff;
+            "
+          >
+            DISCLAIMER
+          </div>
+          For confidential consideration.<br />
+          Not for transmission to any third party or to be utilized in any
+          commercial manner without Pizza Saver LLC’s express written
+          agreement.<br /><br />
+          Copyright 2024 & All rights reserved.
+        </div>
+      </footer>
     </div>
+
     <script>
       const accordionBtns = document.querySelectorAll(".accordion");
-
       accordionBtns.forEach((accordion) => {
         accordion.onclick = function () {
           this.classList.toggle("is-open");
-
           let content = this.nextElementSibling;
           console.log(content);
-
           if (content.style.maxHeight) {
-            //this is if the accordion is open
             content.style.maxHeight = null;
           } else {
-            //if the accordion is currently closed
             content.style.maxHeight = content.scrollHeight + "px";
             console.log(content.style.maxHeight);
           }
@@ -274,6 +627,15 @@
           body: JSON.stringify(data),
         });
       }
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          dotsEach: true,
+        });
+      });
     </script>
   </body>
 </html>
