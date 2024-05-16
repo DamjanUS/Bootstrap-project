@@ -22,7 +22,7 @@
   position: absolute;
   height: 19px;
   left: 41.1%;
-  top: 29px;
+  top: 20px;
   font-style: normal;
   font-weight: 385;
   font-family: "Roboto", sans-serif;
@@ -36,8 +36,8 @@
   position: absolute;
 
   height: 19px;
-  left: 51.94%;
-  top: 29px;
+  left: 49.1%;
+  top: 20px;
   font-style: normal;
   font-weight: 385;
   font-family: "Roboto", sans-serif;
@@ -51,8 +51,8 @@
   position: absolute;
 
   height: 19px;
-  left: 61.94%;
-  top: 29px;
+  left: 57.1%;
+  top: 20px;
   font-style: normal;
   font-weight: 385;
   font-family: "Roboto", sans-serif;
@@ -66,8 +66,8 @@
   position: absolute;
 
   height: 19px;
-  left: 74%;
-  top: 29px;
+  left: 67.1%;
+  top: 20px;
   font-style: normal;
   font-weight: 385;
   font-family: "Roboto", sans-serif;
@@ -79,7 +79,6 @@
 
 .vector {
   width: 66px;
-  height: 17px;
   display: flex;
   justify-content: space-between;
 }
@@ -87,7 +86,7 @@
 .vector_1 {
   width: 15px;
   height: 14px;
-  top: 33px;
+  top: 30px;
   left: 82.6%;
   gap: 0px;
   opacity: 0px;
@@ -96,7 +95,7 @@
 .vector_2 {
   width: 15px;
   height: 14px;
-  top: 33px;
+  top: 30px;
   left: 84.5%;
   gap: 0px;
   opacity: 0px;
@@ -105,7 +104,7 @@
 .vector_3 {
   width: 9px;
   height: 17px;
-  top: 31px;
+  top: 30px;
   left: 86.5%;
   gap: 0px;
   opacity: 0px;
@@ -117,7 +116,6 @@
 
 .nav_border {
   width: 100%;
-  top: 77px;
   border: 1px solid #006ac0;
   opacity: 0px;
 }
@@ -159,6 +157,10 @@
   width: 50%;
 }
 
+.width-three {
+  width: 10%;
+}
+
 .oven {
   margin-top: 100px;
 }
@@ -186,7 +188,6 @@
 
 .background {
   margin-top: 50px;
-  margin-bottom: -200px;
   padding: 15px;
   background: #006ac0;
 }
@@ -205,7 +206,7 @@
 }
 
 .pizza_image {
-  margin-top: 37.3%;
+  margin-top: 40px;
 }
 
 .text_6 {
@@ -214,17 +215,26 @@
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 160%;
-  margin-top: 37.3%;
+  margin-top: 40px;
   margin-left: 115px;
   width: 77.8%;
   color: #000000;
 }
 
 .accordion-container {
-  padding-bottom: 25px;
+  padding: 25px 0;
   height: fit-content;
   background: #fafafa;
   margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.accordion-container > div {
+  width: 74%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 button.faqs {
@@ -240,6 +250,8 @@ button.faqs {
   padding-top: 35px;
   white-space: normal;
   color: #000;
+  min-width: 85%;
+  max-width: 85%;
 }
 
 .faqs-content {
@@ -274,16 +286,14 @@ button.faqs.is-open::before {
 
 button.accordion {
   position: relative;
-  width: 74%;
+  width: 100%;
   background-color: white;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); */
   outline: none;
   text-align: left;
   padding: 20px;
-  margin-top: 25px;
-  margin-left: 185px;
   font-style: normal;
   font-weight: 350;
   font-family: "Roboto", sans-serif;
@@ -297,11 +307,15 @@ button.accordion {
 .accordion-content {
   background-color: white;
   padding: 0 40px;
-  width: 74%;
+  width: 100%;
   max-height: 0;
   overflow: hidden;
-  margin-left: 185px;
   transition: max-height 0.2s ease-in-out;
+}
+
+.accordion-content > div {
+  display: flex;
+  padding: 20px 0;
 }
 
 .accordion_style_text {
@@ -329,7 +343,7 @@ button.accordion.is-open::before {
   background-color: #006ac0;
   padding-left: 200px;
   padding-top: 50px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   padding-right: 200px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -337,15 +351,19 @@ button.accordion.is-open::before {
 
 .case_study_text {
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 200;
   color: white;
   font-family: "Roboto", sans-serif;
+}
+
+.testimonials_wrapper {
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .testimonials_text {
   font-size: 40px;
   font-weight: 500;
-  margin-top: 35px;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
@@ -383,25 +401,23 @@ button.accordion.is-open::before {
 
 .flex_four {
   display: flex;
+  align-items: center;
 }
 
 .timeline_img {
   width: 50%;
   margin-left: 100px;
-  margin-top: 50px;
 }
 
 .pb10 {
   padding-bottom: 10px;
 }
 
-section {
+.timeline__item {
   position: relative;
   width: 100%;
-  padding: 100px 0;
-}
+  padding: 20px 0;
 
-.timeline__item {
   &:before {
     content: "";
     position: absolute;
@@ -410,25 +426,26 @@ section {
     background: #3c3c3c;
     top: 0;
     bottom: 0;
-    left: 50%;
-
+    left: 10.21%;
     margin-left: -1px;
   }
   &:after {
     content: "";
     position: absolute;
-    height: 12px;
-    width: 12px;
+    height: 16px;
+    width: 16px;
     background: #3c3c3c;
     top: 48%;
     bottom: 0;
-    left: 50%;
+    left: 10%;
     margin-left: -6px;
     border-radius: 50%;
   }
 }
 
 .timeline__item--first {
+  padding: 0 0 0 0;
+
   &:before {
     top: 50%;
   }
@@ -448,6 +465,7 @@ section {
   width: 85%;
   padding-left: 225px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .btn_2 {
@@ -500,6 +518,7 @@ section {
 
 .footer {
   background: #3c3c3c;
+  padding: 35px 0;
 }
 
 .title_text {
@@ -522,7 +541,7 @@ section {
 }
 
 .img_lanza {
-  padding-left: 125px;
+  /* padding-left: 125px; */
   padding-top: 125px;
 }
 
@@ -533,4 +552,22 @@ section {
   line-height: 32px;
   text-align: left;
   border: none;
+}
+
+.team_member_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
