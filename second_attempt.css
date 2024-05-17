@@ -18,7 +18,7 @@
   color: #000000;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .link_1,
   .link_2,
   .link_3,
@@ -36,7 +36,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .link_1 {
     position: absolute;
     height: 19px;
@@ -151,12 +151,12 @@
   color: #000000;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .text_1_wrapper {
     padding-left: 30%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .text_1 {
     width: 100%;
   }
@@ -197,7 +197,7 @@
   width: 10%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .vectors {
     display: none;
   }
@@ -212,7 +212,7 @@
     text-align: center;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .mobilevectors {
     display: none;
   }
@@ -233,7 +233,7 @@
   justify-content: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .text_2 {
     text-align: center;
   }
@@ -267,7 +267,7 @@
   color: #ffffff;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .text_5 {
     padding: 0 150px;
   }
@@ -287,7 +287,7 @@
   color: #000000;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .text_6 {
     margin-left: 115px;
     width: 77.8%;
@@ -310,7 +310,7 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .accordion-container > div {
     width: 100%;
   }
@@ -359,14 +359,14 @@ button.faqs::before {
   transform: translateY(-50%);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   button.faqs::before {
     top: 60%;
     left: 105%;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .interested_text {
     width: 100% !important;
   }
@@ -400,7 +400,7 @@ button.faqs::before {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .single_mobile {
     flex-direction: column;
   }
@@ -440,7 +440,7 @@ button.accordion {
   transition: background-color 0.2s linear;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   button.accordion {
     font-size: 28px;
   }
@@ -469,7 +469,7 @@ button.accordion::before {
   transform: translateY(-50%);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   button.accordion::before {
     left: 88.6%;
     top: 52%;
@@ -490,7 +490,7 @@ button.accordion.is-open::before {
   margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .case_study {
     padding-left: 30px;
     padding-right: 30px;
@@ -625,7 +625,7 @@ button.accordion.is-open::before {
   margin-top: 100px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .elevate_text {
     font-size: 50px;
   }
@@ -730,7 +730,7 @@ button.accordion.is-open::before {
   grid-gap: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
