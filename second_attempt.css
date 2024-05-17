@@ -35,21 +35,20 @@ nav {
     text-align: center;
     color: #000;
   }
-
-  .vector {
-    display: none !important;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
   .hidden_desktop {
-    display: none;
+    display: none !important;
+  }
+
+  .navbar-nav {
+    padding-left: 20% !important;
+    margin-top: -10px;
   }
 
   .link_1 {
-    position: absolute;
     height: 19px;
-    left: 41.1%;
     top: 20px;
     font-style: normal;
     font-weight: 385;
@@ -61,10 +60,7 @@ nav {
   }
 
   .link_2 {
-    position: absolute;
-
     height: 19px;
-    left: 49.1%;
     top: 20px;
     font-style: normal;
     font-weight: 385;
@@ -76,10 +72,7 @@ nav {
   }
 
   .link_3 {
-    position: absolute;
-
     height: 19px;
-    left: 57.1%;
     top: 20px;
     font-style: normal;
     font-weight: 385;
@@ -91,10 +84,7 @@ nav {
   }
 
   .link_4 {
-    position: absolute;
-
     height: 19px;
-    left: 67.1%;
     top: 20px;
     font-style: normal;
     font-weight: 385;
@@ -111,6 +101,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
+}
+
+.vector_white img {
+  filter: invert(100%) brightness(100%);
 }
 
 .vector_1 {
@@ -136,6 +131,15 @@ nav {
   height: 17px;
   top: 30px;
   left: 86.5%;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.vector_4 {
+  width: 20px;
+  height: 17px;
+  top: 30px;
+  left: 88.5%;
   gap: 0px;
   opacity: 0px;
 }
