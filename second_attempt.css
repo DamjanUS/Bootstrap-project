@@ -198,6 +198,8 @@ nav {
   .text_1 {
     width: 100%;
     font-size: 28px;
+    text-align: center;
+    line-height: 36px;
   }
   .text_1_wrapper {
     display: flex;
