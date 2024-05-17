@@ -42,6 +42,10 @@ nav {
 }
 
 @media only screen and (min-width: 1024px) {
+  .hidden_desktop {
+    display: none;
+  }
+
   .link_1 {
     position: absolute;
     height: 19px;
@@ -175,16 +179,6 @@ nav {
     /* padding-left: 30% !important; */
   }
 }
-@media only screen and (max-width: 1024px) {
-  .text_1 {
-    width: 100%;
-  }
-  .text_1_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
 .btn_1 {
   background: #ce0024;
@@ -198,6 +192,29 @@ nav {
   padding-left: 35px;
   padding-right: 35px;
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text_1 {
+    width: 100%;
+    font-size: 28px;
+  }
+  .text_1_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn_1 {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .btn_2 {
+    margin-top: 20px !important;
+    font-size: 18px !important;
+  }
+  .oven {
+    width: 80%;
+  }
 }
 
 .flex_one {
@@ -647,7 +664,7 @@ button.accordion.is-open::before {
 
 @media only screen and (max-width: 1024px) {
   .elevate_text {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 

@@ -430,6 +430,8 @@
             "Content-Type": "application/json",
           },
           body: JSON.stringify(data),
+        }).then(() => {
+          alert("Your message has been received, thank you!");
         });
 
         return false;
