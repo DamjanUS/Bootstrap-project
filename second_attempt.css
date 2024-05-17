@@ -18,63 +18,83 @@
   color: #000000;
 }
 
-.link_1 {
-  position: absolute;
-  height: 19px;
-  left: 41.1%;
-  top: 20px;
-  font-style: normal;
-  font-weight: 385;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #000000;
+@media only screen and (max-width: 768px) {
+  .link_1,
+  .link_2,
+  .link_3,
+  .link_4 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 50.02px;
+    text-align: center;
+    color: #000;
+  }
+
+  .vector {
+    display: none !important;
+  }
 }
 
-.link_2 {
-  position: absolute;
+@media only screen and (min-width: 768px) {
+  .link_1 {
+    position: absolute;
+    height: 19px;
+    left: 41.1%;
+    top: 20px;
+    font-style: normal;
+    font-weight: 385;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+  }
 
-  height: 19px;
-  left: 49.1%;
-  top: 20px;
-  font-style: normal;
-  font-weight: 385;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #000000;
-}
+  .link_2 {
+    position: absolute;
 
-.link_3 {
-  position: absolute;
+    height: 19px;
+    left: 49.1%;
+    top: 20px;
+    font-style: normal;
+    font-weight: 385;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+  }
 
-  height: 19px;
-  left: 57.1%;
-  top: 20px;
-  font-style: normal;
-  font-weight: 385;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #000000;
-}
+  .link_3 {
+    position: absolute;
 
-.link_4 {
-  position: absolute;
+    height: 19px;
+    left: 57.1%;
+    top: 20px;
+    font-style: normal;
+    font-weight: 385;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+  }
 
-  height: 19px;
-  left: 67.1%;
-  top: 20px;
-  font-style: normal;
-  font-weight: 385;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  color: #000000;
+  .link_4 {
+    position: absolute;
+
+    height: 19px;
+    left: 67.1%;
+    top: 20px;
+    font-style: normal;
+    font-weight: 385;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+  }
 }
 
 .vector {
@@ -121,14 +141,30 @@
 }
 
 .text_1 {
-  width: 75.1%;
+  width: 67%;
   font-style: normal;
   font-weight: 100;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   line-height: 47px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  .text_1_wrapper {
+    padding-left: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text_1 {
+    width: 100%;
+  }
+  .text_1_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .btn_1 {
@@ -161,20 +197,49 @@
   width: 10%;
 }
 
-.oven {
-  margin-top: 100px;
+@media only screen and (max-width: 768px) {
+  .vectors {
+    display: none;
+  }
+  .mobilevectors {
+    width: 100%;
+  }
+  .accordion-content > div {
+    align-items: center;
+    gap: 0px;
+  }
+  .accordion_style_img {
+    text-align: center;
+  }
 }
-
-.vectors {
-  margin-top: 35px;
+@media only screen and (min-width: 768px) {
+  .mobilevectors {
+    display: none;
+  }
+  .accordion_style_img {
+    margin-left: 100px;
+  }
+  .accordion_style_text {
+    margin-top: 35px;
+    width: 60%;
+  }
 }
 
 .flex_two {
   display: flex;
-  gap: 215px;
+  gap: 100px;
   margin-top: 50px;
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .text_2 {
+    text-align: center;
+  }
+  .gap_min {
+    gap: 50px;
+  }
 }
 
 .text_2 {
@@ -182,7 +247,6 @@
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 24px;
-  margin-right: 10px;
   line-height: 28px;
 }
 
@@ -199,10 +263,14 @@
   font-family: "Roboto", sans-serif;
   line-height: 51px;
   margin-top: 30px;
-  margin-left: 175px;
   text-align: center;
-  padding-right: 150px;
   color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .text_5 {
+    padding: 0 150px;
+  }
 }
 
 .pizza_image {
@@ -210,15 +278,20 @@
 }
 
 .text_6 {
-  font-weight: 350px;
+  font-weight: 350;
   font-style: normal;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 160%;
   margin-top: 40px;
-  margin-left: 115px;
-  width: 77.8%;
   color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  .text_6 {
+    margin-left: 115px;
+    width: 77.8%;
+  }
 }
 
 .accordion-container {
@@ -235,6 +308,12 @@
 .accordion-container > div {
   width: 74%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .accordion-container > div {
+    width: 100%;
+  }
 }
 
 button.faqs {
@@ -280,6 +359,63 @@ button.faqs::before {
   transform: translateY(-50%);
 }
 
+@media only screen and (max-width: 768px) {
+  button.faqs::before {
+    top: 60%;
+    left: 105%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .interested_text {
+    width: 100% !important;
+  }
+  .contact_pic {
+    width: inherit;
+  }
+  .contact_faq_pic {
+    justify-content: center !important;
+  }
+  .pizza_image {
+    width: inherit;
+  }
+  .exclusive_img {
+    display: none;
+    width: inherit;
+    padding-left: 0px !important;
+  }
+  .exclusive_title,
+  .exclusive_text {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+
+  .timeline_img {
+    display: none;
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  .timeline_img > img {
+    width: inherit !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .single_mobile {
+    flex-direction: column;
+  }
+  .single_mobile_reverse {
+    flex-direction: column-reverse;
+  }
+
+  .width-one {
+    width: 100%;
+  }
+  .width-two {
+    width: 100%;
+  }
+}
+
 button.faqs.is-open::before {
   content: url("./faqs_minus.png");
 }
@@ -304,6 +440,12 @@ button.accordion {
   transition: background-color 0.2s linear;
 }
 
+@media only screen and (max-width: 768px) {
+  button.accordion {
+    font-size: 28px;
+  }
+}
+
 .accordion-content {
   background-color: white;
   padding: 0 40px;
@@ -316,15 +458,7 @@ button.accordion {
 .accordion-content > div {
   display: flex;
   padding: 20px 0;
-}
-
-.accordion_style_text {
-  margin-top: 35px;
-  width: 60%;
-}
-
-.accordion_style_img {
-  margin-left: 100px;
+  gap: 10px;
 }
 
 button.accordion::before {
@@ -335,6 +469,13 @@ button.accordion::before {
   transform: translateY(-50%);
 }
 
+@media only screen and (max-width: 768px) {
+  button.accordion::before {
+    left: 88.6%;
+    top: 52%;
+  }
+}
+
 button.accordion.is-open::before {
   content: url("./Minus_vector.png");
 }
@@ -342,11 +483,18 @@ button.accordion.is-open::before {
 .case_study {
   background-color: #006ac0;
   padding-left: 200px;
+  padding-right: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-right: 200px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .case_study {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 .case_study_text {
@@ -354,6 +502,15 @@ button.accordion.is-open::before {
   font-weight: 200;
   color: white;
   font-family: "Roboto", sans-serif;
+}
+
+.case_study_text_sec {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+  color: white;
 }
 
 .testimonials_wrapper {
@@ -396,6 +553,7 @@ button.accordion.is-open::before {
   font-weight: 350;
   margin-top: 25px;
   margin-left: 100px;
+  padding-bottom: 25px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -463,9 +621,14 @@ button.accordion.is-open::before {
   font-weight: 200;
   line-height: 72px;
   width: 85%;
-  padding-left: 225px;
   text-align: center;
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .elevate_text {
+    font-size: 50px;
+  }
 }
 
 .btn_2 {
@@ -480,7 +643,6 @@ button.accordion.is-open::before {
   padding-left: 75px;
   padding-right: 75px;
   margin-top: 50px;
-  margin-left: 425px;
   margin-bottom: 35px;
 }
 
@@ -552,6 +714,8 @@ button.accordion.is-open::before {
   line-height: 32px;
   text-align: left;
   border: none;
+  outline: none;
+  width: 100%;
 }
 
 .team_member_card {
