@@ -312,6 +312,7 @@ nav {
 }
 
 .pizza_image {
+  width: 100%;
   margin-top: 40px;
 }
 
@@ -603,8 +604,11 @@ button.accordion.is-open::before {
 }
 
 .timeline_img {
-  width: 50%;
+  /* width: 50%; */
   /* margin-left: 100px; */
+}
+.timeline_img > img {
+  width: 100% !important;
 }
 
 .pb10 {
