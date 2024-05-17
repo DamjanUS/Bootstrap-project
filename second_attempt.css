@@ -106,6 +106,7 @@ nav {
   width: 66px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .vector_1 {
@@ -171,7 +172,7 @@ nav {
 
 @media only screen and (min-width: 1024px) {
   .text_1_wrapper {
-    padding-left: 30% !important;
+    /* padding-left: 30% !important; */
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -373,7 +374,7 @@ button.faqs::before {
   content: url("./faqs_plus.png");
   position: absolute;
   left: 115%;
-  top: 80%;
+  top: 75%;
   transform: translateY(-50%);
 }
 
