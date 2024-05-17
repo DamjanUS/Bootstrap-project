@@ -54,8 +54,8 @@
     <link rel="stylesheet" href="second_attempt.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
             src="/Logo 1.png"
@@ -107,9 +107,8 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="nav_border"></div>
-
+    <div class="nav_border"></div>
+    <div class="container">
       <div
         class="flex_one single_mobile_reverse"
         style="padding-top: 30px; gap: 20px; margin-bottom: 30px"
@@ -251,19 +250,20 @@
           text-align: center;
           padding-top: 15px;
           color: #ffffff;
+          display: flex;
+          justify-content: center;
         "
       >
-        <img src="papka.png" alt="" />&nbsp;pizzasaverllc@gmail.com
+        <div
+          style="
+            border-bottom: 1px solid #ffffff;
+            width: fit-content;
+            padding-bottom: 3px;
+          "
+        >
+          <img src="papka.png" alt="" /> pizzasaverllc@gmail.com
+        </div>
       </div>
-      <div
-        style="
-          margin-top: 10px;
-          margin-left: 775px;
-          border: 1px solid #ffffff;
-          width: 175px;
-        "
-        ;=""
-      ></div>
       <div
         style="
           color: #ffffff;
@@ -306,7 +306,7 @@
         Not for transmission to any third party or to be utilized in any
         commercial manner without Pizza Saver LLC’s express written
         agreement.<br /><br />
-        Copyright 2024 &amp; All rights reserved.
+        Copyright 2024 & All rights reserved.
       </div>
     </footer>
     <script>

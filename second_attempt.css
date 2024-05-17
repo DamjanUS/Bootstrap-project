@@ -1,3 +1,8 @@
+nav {
+  border-bottom: 1px solid #006ac0;
+  background-color: white;
+}
+
 .logo_1 {
   position: absolute;
   width: 9.93%;
@@ -135,9 +140,10 @@
 }
 
 .nav_border {
-  width: 100%;
+  /* width: 100%;
   border: 1px solid #006ac0;
-  opacity: 0px;
+  opacity: 0px; */
+  display: none;
 }
 
 .text_1 {
@@ -152,8 +158,20 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .timeline_section {
+    margin-top: 50px !important;
+  }
+  .elevate_text {
+    margin-top: 100px !important;
+  }
+  .exclusive_title {
+    margin-top: 100px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .text_1_wrapper {
-    padding-left: 30%;
+    padding-left: 30% !important;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -542,8 +560,8 @@ button.accordion.is-open::before {
   width: 75%;
   font-size: 40px;
   font-weight: 100;
-  margin-top: 100px;
   margin-left: 100px;
+  margin-top: 20px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -622,7 +640,6 @@ button.accordion.is-open::before {
   line-height: 72px;
   width: 85%;
   text-align: center;
-  margin-top: 100px;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -55,8 +55,8 @@
     <link rel="stylesheet" href="second_attempt.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top sticky-top">
+      <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
             src="/Logo 1.png"
@@ -433,7 +433,7 @@
           />
         </div>
       </div>
-      <div class="flex_four single_mobile gap_min" style="margin-top: 50px">
+      <div class="timeline_section flex_four single_mobile gap_min">
         <div class="width-one">
           <div class="timeline_img">
             <img src="timeline-pizza.png" alt="" />
@@ -606,19 +606,20 @@
           text-align: center;
           padding-top: 15px;
           color: #ffffff;
+          display: flex;
+          justify-content: center;
         "
       >
-        <img src="papka.png" alt="" /> pizzasaverllc@gmail.com
+        <div
+          style="
+            border-bottom: 1px solid #ffffff;
+            width: fit-content;
+            padding-bottom: 3px;
+          "
+        >
+          <img src="papka.png" alt="" /> pizzasaverllc@gmail.com
+        </div>
       </div>
-      <div
-        style="
-          margin-top: 10px;
-          margin-left: 775px;
-          border: 1px solid #ffffff;
-          width: 175px;
-        "
-        ;
-      ></div>
       <div
         style="
           color: #ffffff;
